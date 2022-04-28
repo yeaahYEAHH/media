@@ -26,7 +26,7 @@
         </header>
         <div class="container d-flex flex-column align-items-center justify-content-center content"
             style="margin-top: 75px;">
-            <ul class="nav">
+            <ul class="nav1">
                 <li class="text-upper"><a href="#advantages">О нас</a></li>
                 <li class="text-upper"><a href="#catalog">Каталог</a></li>
                 <li class="text-upper"><a href="#sub">Контакты</a></li>
@@ -65,7 +65,7 @@
 
         <section class="panel" id="about-us">
             <div class="container d-flex h-100 flex-column align-items-center justify-content-center">
-                <h1 class="section-title text-upper" style="color: #fff;">о нас</h1>
+                <h1 class="section-title text-upper" style="color: rgb(255, 255, 255);">о нас</h1>
                 <p class="text-upper text-center mt-5">В нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев <br> и электросамокатов от известных мировых производителей.<br> Все товары, представленные на нашем сайте, отобраны лучшими специалистами в этой
                     области.</p>
                     <ol class="text-upper mt-5">
@@ -105,27 +105,300 @@
                 <div class="item" id="smart-container">
                     <p class="text-upper">smart</p>
                 </div>
+
                 <input type="radio" name="brands-trigger" id="linbol">
                 <label for="linbol" class="partners-label" id="linbol-tab"></label>
                 <div class="item" id="linbol-container">
-                <p class="text-upper">linbol</p>
+                    <p class="text-upper">linbol</p>
                 </div>
+
                 <input type="radio" name="brands-trigger" id="kugoo">
                 <label for="kugoo" class="partners-label" id="kugoo-tab"></label>
                 <div class="item" id="kugoo-container">
-                <p class="text-upper">kugoo</p>
+                    <p class="text-upper">kugoo</p>
                 </div>
+
                 <input type="radio" name="brands-trigger" id="subor">
                 <label for="subor" class="partners-label" id="subor-tab"></label>
-                <div class="item" id="subor-container">
+                    <div class="item" id="subor-container">
                 <p class="text-upper">subor</p>
                 </div>
+
                 <input type="radio" name="brands-trigger" id="airwheel">
                 <label for="airwheel" class="partners-label" id="airwheel-tab"></label>
-                <div class="item" id="airwheel-container">
+                    <div class="item" id="airwheel-container">
                 <p class="text-upper">airwheel</p>
                 </div>
             </div>
         </section>
+
+        <section class="panel" id="consultants">
+            <h1 class="section-title text-upper">помогут с выбором</h1>
+            <div class="content d-flex justify-content-center flex-wrap mt-5">
+                <div class="item text-upper text-center">
+                    <img src="/img/consultants/1.png" alt="consultant">
+                    <p class="item-title">Галина Петрова</p>
+                    <p class="item-discription">Менеджер по продажам</p>
+                </div>
+                <div class="item text-upper text-center">
+                    <img src="/img/consultants/2.png" alt="consultant">
+                    <p class="item-title">Светлана Астахова</p>
+                    <p class="item-discription">Менеджер по продажам</p>
+                </div>
+                <div class="item text-upper text-center">
+                    <img src="/img/consultants/3.png" alt="consultant">
+                    <p class="item-title">Иван Алексеев</p>
+                    <p class="item-discription">Менеджер по продажам</p>
+                </div>
+            </div>
+        </section>
+
+        <img class="delimiter" src="/img/section-delimiter.png" alt="section-delimiter">
+        <section id="about-segway">
+            <div class="content d-flex justify-content-between align-items-center">
+                <img class="section-image" src="/img/segway.png" alt="segway">
+                <div class="text-upper" style="width: 60%;">
+                    <h1 class="section-title" style="text-align: start;">особенности гироскутеров</h1>
+                    <div class="mt-3">
+                        <h1 class="title"><img src="/img/minus.png" alt="minus">Начнем с минусов:</h1>
+                        <ol>
+                            <li><p>Трясёт</p></li><br>
+                            <li><p>Нет сиденья</p></li><br>
+                            <li><p>Только для одного</p></li><br>
+                        </ol>
+                    </div>
+                        <div class="mt-3">
+                        <h1 class="title"><img src="/img/plus.png" alt="plus">
+                        С минусами разобрались, теперь можем перейти к преимуществам гироскутеров:
+                        </h1>
+                        <ol>
+                        <li><p>компактность </p></li><br>
+                        <li><p>Экономичностью</p></li><br>
+                        <li><p>Доступностью</p></li><br>
+                        <li><p>Манёвренностью</p></li><br>
+                        <li><p>Простотой в освоении</p></li><br>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="catalog">
+            <h1 class="section-title text-upper">каталог</h1>
+            <input type="radio" id="giroscooters" name="categories" value="giroscooters">
+            <input type="radio" id="electric_scooters" checked name="categories" value="electric_scooters">
+            <input type="radio" id="segways" name="categories" value="segways">
+            <div class="categories">
+                <form id="catalog_filter">
+                    <ul id="categories-container">
+                    <li>
+                        <label for="giroscooters" id="giroscooters-tab" class="text-upper">Гироскутеры</label>
+                    </li>
+                    <li>
+                        <label for="electric_scooters" id="electric_scooters-tab" class="text-upper">Электросамокаты</label>
+                    </li>
+                    <li>
+                        <label for="segways" id="segways-tab" class="text-upper">Сигвеи</label>
+                    </li>
+                    </ul>
+                </form>
+            </div>
+
+            <div class="panels">
+                <div id="electric_scooters-container" class="justify-content-between flex-wrap catalog-container">
+                    <div class="c-card">
+                    <img src="/img/catalog/electric_scooters/1.jpg" alt="card-image">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Xiaomi Mijia Electric Scooter m187 Black</h4>
+                        <p class="type"><span>вид:</span>Электросамокат</p>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">1000<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="/img/catalog/electric_scooters/2.jpg">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Xiaomi Mijia Electric Scooter m187 Black</h4>
+                        <p class="type"><span>вид:</span>Электросамокат</p>
+                        <div class="price-container d-flex jutify-content-between aligh-items-center">
+                            <p class="price">1000<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="/img/catalog/electric_scooters/3.jpg">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Xiaomi Mijia Electric Scooter m187 Black</h4>
+                        <p class="type"><span>вид:</span>Электросамокат</p>
+                        <div class="price-container d-flex jutify-content-between aligh-items-center">
+                            <p class="price">1000<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+
+            <div id="giroscooters-container" class="justify-content-between flex-wrap catalog-container">
+                <div class="c-card">
+                    <img src="/img/catalog/giroscooters/1.jpg">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Гироскутер Smart Balance 10 Красный</h4>
+                        <p class="type"><span>вид:</span>Гироскутер</p>
+                        <div class="price-container d-flex jutify-content-between aligh-items-center">
+                            <p class="price">6500<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="/img/catalog/giroscooters/2.jpg">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Гироскутер Smart Balance 10 Цветгые молнии</h4>
+                        <p class="type"><span>вид:</span>Гироскутер</p>
+                        <div class="price-container d-flex jutify-content-between aligh-items-center">
+                            <p class="price">10 990<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="/img/catalog/giroscooters/3.jpg">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Гироскутер Smart Balance SUV Черная Молния 10.4" Premium PRO</h4>
+                        <p class="type"><span>вид:</span>Гироскутер</p>
+                        <div class="price-container d-flex jutify-content-between aligh-items-center">
+                            <p class="price">8 590<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="segways-container" class="justify-content-between flex-wrap catalog-container">
+                <div class="c-card">
+                    <img src="/img/catalog/segways/1.jpg">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Сигвей Xiaomi Ninebot mini Pro Black (Черный)</h4>
+                        <p class="type"><span>вид:</span>Сигвей</p>
+                        <div class="price-container d-flex jutify-content-between aligh-items-center">
+                            <p class="price">31 480<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="/img/catalog/segways/2.jpg">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Сигвей Xiaomi Ninebot mini Pro White (Белый)</h4>
+                        <p class="type"><span>вид:</span>Сигвей</p>
+                        <div class="price-container d-flex jutify-content-between aligh-items-center">
+                            <p class="price">31 480<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="/img/catalog/segways/3.jpg">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #3d67b0;">Xiaomi Mijia Electric Scooter m187 Black</h4>
+                        <p class="type"><span>вид:</span>Сигвей</p>
+                        <div class="price-container d-flex jutify-content-between aligh-items-center">
+                            <p class="price">14 790<span>р.</span></p>
+                            <button class="btn btn-primary">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="panel" id="useful-info">
+        <h1 class="section-title text-upper">Полезная инфорамация</h1>
+        <div class=" d-flex justify-content-center align-items-center flex-column u-content">
+            <div class="content w-75 d-flex" style="height: 70vh;">
+                <div class="item d-flex justify-content-between align-items-center">
+                    <img class="item-img" src="/img/useful_info/1.jpg" alt="image">
+                    <div class="p-5">
+                        <div class="d-flex justify-content-start">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="/img/fire.png" alt="fire-icon">
+                                <p class="text-upper mt-3">new</p>
+                            </div>
+                        </div>
+                        <h1 class="title text-upper">Как выбрать гироскутер перед покупкой?</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Doloribus inventore voluptatum eligendi nihil commodi dolorum nisi blanditiis
+                        illo eaque maxime iusto optio omnis animi, consequuntur architecto aspernatur,
+                        iure! Voluptates, voluptatum!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content w-75 d-flex" style="height: 70vh;">
+                <div class="item d-flex justify-content-between align-items-center flex-row-reverse">
+                    <img class="item-img" src="/img/useful_info/2.jpg" alt="image">
+                    <div class="p-5">
+                        <div class="d-flex justify-content-start">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="/img/fire.png" alt="fire-icon">
+                                <p class="text-upper mt-3">new</p>
+                            </div>
+                        </div>
+                        <h1 class="title text-upper">Электросамокат. Какой лучше и как выбрать?</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Doloribus inventore voluptatum eligendi nihil commodi dolorum nisi blanditiis
+                        illo eaque maxime iusto optio omnis animi, consequuntur architecto aspernatur,
+                        iure! Voluptates, voluptatum!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="panel" id="sub">
+        <div class="container h-100 d-flex justify-content-center align-items-center flex-column">
+            <h1 class="section-title text-upper" style="color: #fff;">подписка на рассылку</h1>
+            <form class="w-50 mt-5 d-flex flex-column align-items-center">
+                <input type="text" class="form-control" placeholder="ФИО">
+                <input type="text" class="form-control" placeholder="ПОЧТА">
+                <button class="btn btn-white-big text-upper mt-5">Подписаться</button>
+            </form> 
+        </div>
+    </section>
+
+    <footer class="panel">
+        <div class="h-100 d-flex justify-content-between align-items-center" style="width: 80vw; margin: 0
+        auto;">
+            <div class="footer-logo"><img src="/img/logo-blue.png" alt="logo"></div>
+                <div class="h-100 d-flex align-items-end">
+                    <ul class="nav">
+                    <li class="text-upper"><a href="#advantages">О нас</a></li>
+                    <li class="text-upper"><a href="#catalog">Каталог</a></li>
+                    <li class="text-upper"><a href="#sub">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-evenly flex-column h-100">
+                    <div class="contact">
+                        <div class="item d-flex justify-content-start align-items-center mb-2">
+                            <img src="/img/address-blue.png" alt="address">
+                            <p class="text-upper">москва, набережная 2 оф. 142</p>
+                        </div>
+                        <div class="item d-flex justify-content-start align-items-center">
+                            <img src="/img/phone-blue.png" alt="phone">
+                            <p class="text-upper">+7 923 398 9013</p>
+                        </div>
+                    </div>
+                    <div class="social mt-1">
+                        <p>Мы в соц. сетях:</p>
+                        <div class="social-icons">
+                            <img src="/img/social_icons/vk.png" alt="vk">
+                            <img src="/img/social_icons/instagram.png" alt="inst">
+                            <img src="/img/social_icons/youtube.png" alt="youtube">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    <a class="btn btn-primary btn-up" href="#first-page"><img src="/img/go_up.png" alt="go up"></a>
 </body>
 </html>
